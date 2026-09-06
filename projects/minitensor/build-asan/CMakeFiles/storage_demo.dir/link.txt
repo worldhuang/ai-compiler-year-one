@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/storage_demo.dir/examples/storage_move_demo.cpp.o -o bin/storage_demo  lib/libminitensor.a 

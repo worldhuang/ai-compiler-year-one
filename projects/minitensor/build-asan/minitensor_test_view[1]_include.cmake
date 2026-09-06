@@ -1,5 +1,0 @@
-if(EXISTS "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/minitensor_test_view[1]_tests.cmake")
-  include("/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/minitensor_test_view[1]_tests.cmake")
-else()
-  add_test(minitensor_test_view_NOT_BUILT minitensor_test_view_NOT_BUILT)
-endif()

@@ -27,6 +27,34 @@ function(enable_strict_warnings target)
     endif()
 endfunction()
 
+option(MINITENSOR_ENABLE_SANITIZERS
+    "Enable ASan and UBSan"
+    OFF)
+
+function(enable_sanitizers target)
+    if (MINITENSOR_ENABLE_SANITIZERS
+        AND CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+
+        target_compile_options(${target} PRIVATE
+            -fsanitize=address,undefined#野指针/未定义
+            -fno-omit-frame-pointer#保留栈帧，**崩溃时打印完整调用栈**，方便定位源码
+            -g#保留调试信息,**保存代码文件名和行号**
+            
+        )
+
+        target_link_options(${target} PRIVATE
+            -fsanitize=address,undefined
+        )
+    endif()
+endfunction()
+
+enable_sanitizers(minitensor)
+enable_sanitizers(test_demo_tensor)
+enable_sanitizers(test_bound_tensor)
+enable_sanitizers(test_storage)
+enable_sanitizers(test_tensor_view)
+enable_sanitizers(test_operators)
+
 
 file(GLOB SRC_LIST "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
 
@@ -57,6 +85,7 @@ set_target_properties(storage_demo PROPERTIES
 target_link_libraries(storage_demo PRIVATE minitensor)
 enable_strict_warnings(storage_demo)
 
+
 add_executable(matmul_bench
     ./benchmarks/matmul_bench.cpp
 )
@@ -65,6 +94,7 @@ set_target_properties(matmul_bench PROPERTIES
 )
 target_link_libraries(matmul_bench PRIVATE minitensor)
 enable_strict_warnings(matmul_bench)
+
 
 include (CTest) #定义BUILD_TESTING,开启enable_testing
 

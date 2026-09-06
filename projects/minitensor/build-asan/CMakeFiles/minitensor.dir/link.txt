@@ -1,2 +1,0 @@
-/usr/bin/ar qc lib/libminitensor.a CMakeFiles/minitensor.dir/src/operators.cpp.o CMakeFiles/minitensor.dir/src/tensor.cpp.o CMakeFiles/minitensor.dir/src/tensor_view.cpp.o
-/usr/bin/ranlib lib/libminitensor.a

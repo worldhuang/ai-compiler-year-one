@@ -1,5 +1,0 @@
-if(EXISTS "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/test_storage[1]_tests.cmake")
-  include("/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/test_storage[1]_tests.cmake")
-else()
-  add_test(test_storage_NOT_BUILT test_storage_NOT_BUILT)
-endif()
