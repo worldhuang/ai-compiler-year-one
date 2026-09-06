@@ -1,0 +1,22 @@
+TensorTest.CreatesOrdinaryMatrixWithCorrectMetadata 1 0.00144397
+TensorTest.FillSetsEveryElement 1 0.00127017
+TensorTest.OneDimensionalIndexReadsAndWrites 1 0.00124125
+TensorTest.TwoDimensionalIndexMapsToContiguousStorage 1 0.00131141
+TensorTest.EmptyShapeRepresentsScalar 1 0.00135598
+TensorTest.ZeroSizedDimensionCreatesEmptyTensor 1 0.00132283
+TensorTest.OutOfRangeOneDimensionalIndexThrows 1 0.00139269
+TensorTest.WrongRankAndOutOfRangeTwoDimensionalIndexThrow 1 0.00144768
+storageTest.AllcoatesContiguousMemory 1 0.00144121
+storageTest.MoveConstruct 1 0.00140288
+storageTest.MoveAssignment 1 0.00150454
+StorageTest.SupportsZeroSizedStorage 1 0.00153075
+StorageTest.ThrowsForOutOfRangeAccess 1 0.00157579
+StorageTest.ReleasesElementsWhenLeavingScope 1 0.00161567
+TestTensorView.TestRowViewMetadata 1 0.00169586
+TestTensorView.TestInvalidAccessThrows 1 0.00166921
+TestTensorView.TestFunc_row_view 1 0.00164685
+TestTensorView.TestReshapeSharesStorages 1 0.00166824
+TestTensorView.TestTrabsposeSharesStorage 1 0.00164062
+TestTensorView.TestOutlivesParentTensor 1 0.00164335
+TestOperators.TestClose 1 0.00180148
+---

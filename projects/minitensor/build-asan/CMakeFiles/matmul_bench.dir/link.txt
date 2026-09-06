@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/matmul_bench.dir/benchmarks/matmul_bench.cpp.o -o bin/matmul_bench  lib/libminitensor.a 

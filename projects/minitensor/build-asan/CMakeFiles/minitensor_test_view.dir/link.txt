@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/minitensor_test_view.dir/tests/test_tensor_view.cpp.o -o bin/minitensor_test_view  lib/libminitensor.a lib/libgtest_main.a lib/libgtest.a 

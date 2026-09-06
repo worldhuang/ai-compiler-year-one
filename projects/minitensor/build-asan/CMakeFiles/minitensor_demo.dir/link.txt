@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/minitensor_demo.dir/examples/demo.cpp.o -o bin/minitensor_demo  lib/libminitensor.a 

@@ -1,0 +1,570 @@
+Start testing: Sep 06 15:16 CST
+----------------------------------------------------------
+1/21 Testing: TensorTest.CreatesOrdinaryMatrixWithCorrectMetadata
+1/21 Test: TensorTest.CreatesOrdinaryMatrixWithCorrectMetadata
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test" "--gtest_filter=TensorTest.CreatesOrdinaryMatrixWithCorrectMetadata" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TensorTest.CreatesOrdinaryMatrixWithCorrectMetadata" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.CreatesOrdinaryMatrixWithCorrectMetadata
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.CreatesOrdinaryMatrixWithCorrectMetadata
+[       OK ] TensorTest.CreatesOrdinaryMatrixWithCorrectMetadata (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.CreatesOrdinaryMatrixWithCorrectMetadata" end time: Sep 06 15:16 CST
+"TensorTest.CreatesOrdinaryMatrixWithCorrectMetadata" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/21 Testing: TensorTest.FillSetsEveryElement
+2/21 Test: TensorTest.FillSetsEveryElement
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test" "--gtest_filter=TensorTest.FillSetsEveryElement" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TensorTest.FillSetsEveryElement" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.FillSetsEveryElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.FillSetsEveryElement
+[       OK ] TensorTest.FillSetsEveryElement (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.FillSetsEveryElement" end time: Sep 06 15:16 CST
+"TensorTest.FillSetsEveryElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/21 Testing: TensorTest.OneDimensionalIndexReadsAndWrites
+3/21 Test: TensorTest.OneDimensionalIndexReadsAndWrites
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test" "--gtest_filter=TensorTest.OneDimensionalIndexReadsAndWrites" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TensorTest.OneDimensionalIndexReadsAndWrites" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.OneDimensionalIndexReadsAndWrites
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.OneDimensionalIndexReadsAndWrites
+[       OK ] TensorTest.OneDimensionalIndexReadsAndWrites (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.OneDimensionalIndexReadsAndWrites" end time: Sep 06 15:16 CST
+"TensorTest.OneDimensionalIndexReadsAndWrites" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/21 Testing: TensorTest.TwoDimensionalIndexMapsToContiguousStorage
+4/21 Test: TensorTest.TwoDimensionalIndexMapsToContiguousStorage
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test" "--gtest_filter=TensorTest.TwoDimensionalIndexMapsToContiguousStorage" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TensorTest.TwoDimensionalIndexMapsToContiguousStorage" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TwoDimensionalIndexMapsToContiguousStorage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TwoDimensionalIndexMapsToContiguousStorage
+[       OK ] TensorTest.TwoDimensionalIndexMapsToContiguousStorage (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TwoDimensionalIndexMapsToContiguousStorage" end time: Sep 06 15:16 CST
+"TensorTest.TwoDimensionalIndexMapsToContiguousStorage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/21 Testing: TensorTest.EmptyShapeRepresentsScalar
+5/21 Test: TensorTest.EmptyShapeRepresentsScalar
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test" "--gtest_filter=TensorTest.EmptyShapeRepresentsScalar" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TensorTest.EmptyShapeRepresentsScalar" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.EmptyShapeRepresentsScalar
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.EmptyShapeRepresentsScalar
+[       OK ] TensorTest.EmptyShapeRepresentsScalar (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.EmptyShapeRepresentsScalar" end time: Sep 06 15:16 CST
+"TensorTest.EmptyShapeRepresentsScalar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/21 Testing: TensorTest.ZeroSizedDimensionCreatesEmptyTensor
+6/21 Test: TensorTest.ZeroSizedDimensionCreatesEmptyTensor
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test" "--gtest_filter=TensorTest.ZeroSizedDimensionCreatesEmptyTensor" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TensorTest.ZeroSizedDimensionCreatesEmptyTensor" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.ZeroSizedDimensionCreatesEmptyTensor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.ZeroSizedDimensionCreatesEmptyTensor
+[       OK ] TensorTest.ZeroSizedDimensionCreatesEmptyTensor (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.ZeroSizedDimensionCreatesEmptyTensor" end time: Sep 06 15:16 CST
+"TensorTest.ZeroSizedDimensionCreatesEmptyTensor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/21 Testing: TensorTest.OutOfRangeOneDimensionalIndexThrows
+7/21 Test: TensorTest.OutOfRangeOneDimensionalIndexThrows
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test" "--gtest_filter=TensorTest.OutOfRangeOneDimensionalIndexThrows" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TensorTest.OutOfRangeOneDimensionalIndexThrows" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.OutOfRangeOneDimensionalIndexThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.OutOfRangeOneDimensionalIndexThrows
+[       OK ] TensorTest.OutOfRangeOneDimensionalIndexThrows (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.OutOfRangeOneDimensionalIndexThrows" end time: Sep 06 15:16 CST
+"TensorTest.OutOfRangeOneDimensionalIndexThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/21 Testing: TensorTest.WrongRankAndOutOfRangeTwoDimensionalIndexThrow
+8/21 Test: TensorTest.WrongRankAndOutOfRangeTwoDimensionalIndexThrow
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test" "--gtest_filter=TensorTest.WrongRankAndOutOfRangeTwoDimensionalIndexThrow" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TensorTest.WrongRankAndOutOfRangeTwoDimensionalIndexThrow" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.WrongRankAndOutOfRangeTwoDimensionalIndexThrow
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.WrongRankAndOutOfRangeTwoDimensionalIndexThrow
+[       OK ] TensorTest.WrongRankAndOutOfRangeTwoDimensionalIndexThrow (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.WrongRankAndOutOfRangeTwoDimensionalIndexThrow" end time: Sep 06 15:16 CST
+"TensorTest.WrongRankAndOutOfRangeTwoDimensionalIndexThrow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/21 Testing: storageTest.AllcoatesContiguousMemory
+9/21 Test: storageTest.AllcoatesContiguousMemory
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/test_storage" "--gtest_filter=storageTest.AllcoatesContiguousMemory" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"storageTest.AllcoatesContiguousMemory" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = storageTest.AllcoatesContiguousMemory
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from storageTest
+[ RUN      ] storageTest.AllcoatesContiguousMemory
+[       OK ] storageTest.AllcoatesContiguousMemory (0 ms)
+[----------] 1 test from storageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"storageTest.AllcoatesContiguousMemory" end time: Sep 06 15:16 CST
+"storageTest.AllcoatesContiguousMemory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/21 Testing: storageTest.MoveConstruct
+10/21 Test: storageTest.MoveConstruct
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/test_storage" "--gtest_filter=storageTest.MoveConstruct" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"storageTest.MoveConstruct" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = storageTest.MoveConstruct
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from storageTest
+[ RUN      ] storageTest.MoveConstruct
+[       OK ] storageTest.MoveConstruct (0 ms)
+[----------] 1 test from storageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"storageTest.MoveConstruct" end time: Sep 06 15:16 CST
+"storageTest.MoveConstruct" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/21 Testing: storageTest.MoveAssignment
+11/21 Test: storageTest.MoveAssignment
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/test_storage" "--gtest_filter=storageTest.MoveAssignment" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"storageTest.MoveAssignment" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = storageTest.MoveAssignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from storageTest
+[ RUN      ] storageTest.MoveAssignment
+[       OK ] storageTest.MoveAssignment (0 ms)
+[----------] 1 test from storageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"storageTest.MoveAssignment" end time: Sep 06 15:16 CST
+"storageTest.MoveAssignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/21 Testing: StorageTest.SupportsZeroSizedStorage
+12/21 Test: StorageTest.SupportsZeroSizedStorage
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/test_storage" "--gtest_filter=StorageTest.SupportsZeroSizedStorage" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"StorageTest.SupportsZeroSizedStorage" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StorageTest.SupportsZeroSizedStorage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StorageTest
+[ RUN      ] StorageTest.SupportsZeroSizedStorage
+[       OK ] StorageTest.SupportsZeroSizedStorage (0 ms)
+[----------] 1 test from StorageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StorageTest.SupportsZeroSizedStorage" end time: Sep 06 15:16 CST
+"StorageTest.SupportsZeroSizedStorage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/21 Testing: StorageTest.ThrowsForOutOfRangeAccess
+13/21 Test: StorageTest.ThrowsForOutOfRangeAccess
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/test_storage" "--gtest_filter=StorageTest.ThrowsForOutOfRangeAccess" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"StorageTest.ThrowsForOutOfRangeAccess" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StorageTest.ThrowsForOutOfRangeAccess
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StorageTest
+[ RUN      ] StorageTest.ThrowsForOutOfRangeAccess
+[       OK ] StorageTest.ThrowsForOutOfRangeAccess (0 ms)
+[----------] 1 test from StorageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StorageTest.ThrowsForOutOfRangeAccess" end time: Sep 06 15:16 CST
+"StorageTest.ThrowsForOutOfRangeAccess" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/21 Testing: StorageTest.ReleasesElementsWhenLeavingScope
+14/21 Test: StorageTest.ReleasesElementsWhenLeavingScope
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/test_storage" "--gtest_filter=StorageTest.ReleasesElementsWhenLeavingScope" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"StorageTest.ReleasesElementsWhenLeavingScope" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StorageTest.ReleasesElementsWhenLeavingScope
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StorageTest
+[ RUN      ] StorageTest.ReleasesElementsWhenLeavingScope
+[       OK ] StorageTest.ReleasesElementsWhenLeavingScope (0 ms)
+[----------] 1 test from StorageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StorageTest.ReleasesElementsWhenLeavingScope" end time: Sep 06 15:16 CST
+"StorageTest.ReleasesElementsWhenLeavingScope" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/21 Testing: TestTensorView.TestRowViewMetadata
+15/21 Test: TestTensorView.TestRowViewMetadata
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test_view" "--gtest_filter=TestTensorView.TestRowViewMetadata" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TestTensorView.TestRowViewMetadata" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestTensorView.TestRowViewMetadata
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestTensorView
+[ RUN      ] TestTensorView.TestRowViewMetadata
+[       OK ] TestTensorView.TestRowViewMetadata (0 ms)
+[----------] 1 test from TestTensorView (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestTensorView.TestRowViewMetadata" end time: Sep 06 15:16 CST
+"TestTensorView.TestRowViewMetadata" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/21 Testing: TestTensorView.TestInvalidAccessThrows
+16/21 Test: TestTensorView.TestInvalidAccessThrows
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test_view" "--gtest_filter=TestTensorView.TestInvalidAccessThrows" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TestTensorView.TestInvalidAccessThrows" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestTensorView.TestInvalidAccessThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestTensorView
+[ RUN      ] TestTensorView.TestInvalidAccessThrows
+[       OK ] TestTensorView.TestInvalidAccessThrows (0 ms)
+[----------] 1 test from TestTensorView (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestTensorView.TestInvalidAccessThrows" end time: Sep 06 15:16 CST
+"TestTensorView.TestInvalidAccessThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/21 Testing: TestTensorView.TestFunc_row_view
+17/21 Test: TestTensorView.TestFunc_row_view
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test_view" "--gtest_filter=TestTensorView.TestFunc_row_view" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TestTensorView.TestFunc_row_view" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestTensorView.TestFunc_row_view
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestTensorView
+[ RUN      ] TestTensorView.TestFunc_row_view
+[       OK ] TestTensorView.TestFunc_row_view (0 ms)
+[----------] 1 test from TestTensorView (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestTensorView.TestFunc_row_view" end time: Sep 06 15:16 CST
+"TestTensorView.TestFunc_row_view" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/21 Testing: TestTensorView.TestReshapeSharesStorages
+18/21 Test: TestTensorView.TestReshapeSharesStorages
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test_view" "--gtest_filter=TestTensorView.TestReshapeSharesStorages" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TestTensorView.TestReshapeSharesStorages" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestTensorView.TestReshapeSharesStorages
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestTensorView
+[ RUN      ] TestTensorView.TestReshapeSharesStorages
+[       OK ] TestTensorView.TestReshapeSharesStorages (0 ms)
+[----------] 1 test from TestTensorView (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestTensorView.TestReshapeSharesStorages" end time: Sep 06 15:16 CST
+"TestTensorView.TestReshapeSharesStorages" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/21 Testing: TestTensorView.TestTrabsposeSharesStorage
+19/21 Test: TestTensorView.TestTrabsposeSharesStorage
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test_view" "--gtest_filter=TestTensorView.TestTrabsposeSharesStorage" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TestTensorView.TestTrabsposeSharesStorage" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestTensorView.TestTrabsposeSharesStorage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestTensorView
+[ RUN      ] TestTensorView.TestTrabsposeSharesStorage
+[       OK ] TestTensorView.TestTrabsposeSharesStorage (0 ms)
+[----------] 1 test from TestTensorView (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestTensorView.TestTrabsposeSharesStorage" end time: Sep 06 15:16 CST
+"TestTensorView.TestTrabsposeSharesStorage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/21 Testing: TestTensorView.TestOutlivesParentTensor
+20/21 Test: TestTensorView.TestOutlivesParentTensor
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/minitensor_test_view" "--gtest_filter=TestTensorView.TestOutlivesParentTensor" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TestTensorView.TestOutlivesParentTensor" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestTensorView.TestOutlivesParentTensor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestTensorView
+[ RUN      ] TestTensorView.TestOutlivesParentTensor
+[       OK ] TestTensorView.TestOutlivesParentTensor (0 ms)
+[----------] 1 test from TestTensorView (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestTensorView.TestOutlivesParentTensor" end time: Sep 06 15:16 CST
+"TestTensorView.TestOutlivesParentTensor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/21 Testing: TestOperators.TestClose
+21/21 Test: TestOperators.TestClose
+Command: "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/bin/operators_test_view" "--gtest_filter=TestOperators.TestClose" "--gtest_also_run_disabled_tests"
+Directory: /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan
+"TestOperators.TestClose" start time: Sep 06 15:16 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestOperators.TestClose
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestOperators
+[ RUN      ] TestOperators.TestClose
+[       OK ] TestOperators.TestClose (0 ms)
+[----------] 1 test from TestOperators (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestOperators.TestClose" end time: Sep 06 15:16 CST
+"TestOperators.TestClose" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 06 15:16 CST

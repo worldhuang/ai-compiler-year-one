@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test_storage.dir/tests/test_storage.cpp.o -o bin/test_storage  lib/libminitensor.a lib/libgtest_main.a lib/libgtest.a 

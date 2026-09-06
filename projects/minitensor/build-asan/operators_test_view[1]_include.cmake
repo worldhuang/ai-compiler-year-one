@@ -1,0 +1,5 @@
+if(EXISTS "/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/operators_test_view[1]_tests.cmake")
+  include("/home/hsj/ai-compiler-year-one/projects/minitensor/build-asan/operators_test_view[1]_tests.cmake")
+else()
+  add_test(operators_test_view_NOT_BUILT operators_test_view_NOT_BUILT)
+endif()
